@@ -14,6 +14,10 @@ end
 def assign_rooms(speakers)
   speakers_with_rooms = []
   speakers.each_with_index do |speaker, index|
-    speakers_with_rooms << "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
+    if index < 7
+      speakers_with_rooms << "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
+    else
+      speakers_with_rooms << "Hello, #{speaker}! There are no rooms left for you, sorry!"
+    end
   end
 end
