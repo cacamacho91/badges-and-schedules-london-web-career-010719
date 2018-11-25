@@ -10,3 +10,6 @@ def batch_badge_creator(array)
   end
   badge_array
 end
+
+def assign_rooms
+end
