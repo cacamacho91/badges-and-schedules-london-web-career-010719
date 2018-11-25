@@ -20,4 +20,5 @@ def assign_rooms(speakers)
       speakers_with_rooms << "Hello, #{speaker}! There are no rooms left for you, sorry!"
     end
   end
+  speakers_with_rooms
 end
